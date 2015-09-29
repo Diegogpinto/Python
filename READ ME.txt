@@ -1,0 +1,77 @@
+READ ME
+
+Hello and welcome to my github repository for Python code. Below see the descriptions of my code and the
+purpose that they have. You are welcome to view and share as you like.
+
+thanks, 
+
+-diego pinto
+
+
+/*****************************************************************************\
+DOI Program: 9-25-2015
+
+This program was designed with the idea that all sourceof information from a book or an article will be collected
+and stored in such a format where it would be easily accessable through a webpage. The program will read a text
+a text file "bib.txt" where it will contain some information about a book with the following commands which give
+information: \\A,\\B,\\J,\\Y,\\R,\\P.
+
+All commands are in a global dictionary for this code. it was not necessary to contain it into a method since 
+this is a small program with small functionality.
+
+The output of the program will remove all trailing blanks, all unwanted characters, notify of ending 
+information with </doi>.
+
+Contains a small error checking when a command is unknown.
+
+
+/*****************************************************************************\
+Database Program: 9-10-2015
+
+This program is to illstarte a usage for dictionaries in python. the program will first boot and 
+set up a dictionary with the given information from a text file called "fl_cities.txt" 
+seperated by a ";" character. the city will become the key and the zip code will become the value for the key.
+
+Next, the program will read line by line the "fl_maint.txt" file which has a series of commands to be executed.
+It will either change, remove, display, or update the list.
+
+The program has a small level of error checking since there is no user input. 
+
+/*****************************************************************************\
+Prime Number finder: 9-09-2015 
+
+This program is used to show some manipulation and usage of an array list in python.This program asks the user
+to insert a value between 2-300. any value smaller or greater than that will be checked as an error and will 
+looped until the user inputs a number between the range. The program uses eval() which will evalutate what the
+input from the user was and will determine if it was an interger value. 
+
+After the initial stage, the program will populate with numbers up to the user number and iterate itself check if
+the current number (starting at 2) is a prime number of the user not.this process will continue until the upper
+boundary that is user defined is hit.
+
+The output will display the list of prime numbers with 5 spaces, 6 per row.
+
+/*****************************************************************************\
+Fibinnacci Sequence: 9-03-2015 
+
+This program will output the Fib sequence up to the Nth term which the user selects. There is no error checking
+on this particular code. 
+
+The output will result in a list of Fib numbers seperated by 6 spaces.
+
+
+/*****************************************************************************\
+Converion Program: 8-19-2015 
+
+Small program with a simple feature to use manipulation of data and usage of input in the python language. 
+Contains example for math, output, input, and the eval() function. 
+
+Asks a user for a temperature in farhenhiet.
+
+the output will be the result after using a formula for conversion to Celsious.
+
+
+
+
+
+
